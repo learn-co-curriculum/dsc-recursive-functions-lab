@@ -1,5 +1,5 @@
 
-# Recursive Functions
+# Recursive Functions - Lab
 
 ## Introduction
 
