@@ -54,27 +54,21 @@ for i in range(1, 10):
     print(fib(i))
 ```
 
-    1
-    1
-    2
-    3
-    5
-    8
-    13
-    21
-    34
-
-
 ## Flat List
 
 Write a function that takes a nested list and flattens it to a list of ints, floats and strings.
 For example the nested list [1,[2,3[4,5,6]], 7, [8], [9,10]] would become [1,2,3,4,5,6,7,8,9,10] or 
 [1,2[3,4,[5]]] would become [1,2,3,4,5].
 
+> **Note**: Be careful how you initialize your function! See [this link](https://docs.quantifiedcode.com/python-anti-patterns/correctness/mutable_default_value_as_argument.html) for some potential pitfalls you could encounter if you're not careful!
+
 
 ```python
-def flat_list(L, result=[]):
-    print('Current L:', L) #Optional, to display process
+def flat_list(L, result=None, print_results=True):
+    if result is None:
+        result = []
+    if print_results:
+        print('Current L:', L) #Optional, to display process
     for i in L:
         if type(i) == list:
             flat_list(i, result)
