@@ -18,23 +18,23 @@ The Fibonacci sequence starts off:
 
 Each number is the sum of the two preceding. Write a recursive function that calculates the nth number of the Fibonacci sequence. For example, our sequence above would correspond to:
 
-fib(1) = 1 #The 1st element in the sequence is 1 
+fib(1) = 1 #The 1st element in the sequence is 1
 
-fib(2) = 1 #The 2nd element in the sequence is 1  
+fib(2) = 1 #The 2nd element in the sequence is 1
 
-fib(3) = 2 #The 3rd element in the sequence is 2  
+fib(3) = 2 #The 3rd element in the sequence is 2
 
-fib(4) = 3 #The 4th element in the sequence is 3  
+fib(4) = 3 #The 4th element in the sequence is 3
 
-fib(5) = 5 #The 5th element in the sequence is 5  
+fib(5) = 5 #The 5th element in the sequence is 5
 
-fib(6) = 8 #The 6th element in the sequence is 8  
+fib(6) = 8 #The 6th element in the sequence is 8
 
-fib(7) = 13 #The 7th element in the sequence is 13  
+fib(7) = 13 #The 7th element in the sequence is 13
 
-fib(8) = 21 #The 8th element in the sequence is 21  
+fib(8) = 21 #The 8th element in the sequence is 21
 
-fib(9) = 34 #The 9th element in the sequence is 34  
+fib(9) = 34 #The 9th element in the sequence is 34
 
 
 ```python
@@ -97,9 +97,14 @@ flat_list(L)
 
 Did you use breadth or depth first recursive calls above? Explain.
 
-### Answers may vary. General explanation below.
 
-Depth first search navigates down a nested data structure, while breadth first goes one layer at a time, successively deeper but processing an entire layer before moving on to deeper layers.
+```python
+
+# Answers may vary. General explanation below.
+# Depth first search navigates down a nested data structure, 
+# while breadth first goes one layer at a time, 
+# successively deeper but processing an entire layer before moving on to deeper layers.
+```
 
 ## Summary
 Well done! Recursive functions are an advanced topic in Python and you got some good practice tackling classic problems here.
