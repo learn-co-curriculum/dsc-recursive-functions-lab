@@ -56,6 +56,13 @@ def fib(n):
         return fib(n-1) + fib(n-2)
 ```
 
+
+```python
+# __SOLUTION__ 
+for i in range(1, 10):
+    print(fib(i))
+```
+
 ## Flat List
 
 Write a function that takes a nested list and flattens it to a list of ints, floats and strings.
@@ -66,21 +73,10 @@ For example the nested list [1,[2,3[4,5,6]], 7, [8], [9,10]] would become [1,2,3
 
 
 ```python
-# __SOLUTION__ 
-for i in range(1, 10):
-    print(fib(i))
-```
-
-
-```python
 #Your code here
 def flat_list(L):
     return flattened
 ```
-
-## Depth vs Breadth First Search
-
-Did you use breadth or depth first recursive calls above? Explain.
 
 
 ```python
@@ -114,9 +110,23 @@ flat_list(L)
 
 
 
+## Depth vs Breadth First Search
+
+Did you use breadth or depth first recursive calls above? Explain.
+
 
 ```python
 #Your answer here.
+```
+
+
+```python
+# __SOLUTION__ 
+
+# Answers may vary. General explanation below.
+# Depth first search navigates down a nested data structure, 
+# while breadth first goes one layer at a time, 
+# successively deeper but processing an entire layer before moving on to deeper layers.
 ```
 
 ## Summary
