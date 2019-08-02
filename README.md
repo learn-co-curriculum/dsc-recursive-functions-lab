@@ -63,6 +63,17 @@ for i in range(1, 10):
     print(fib(i))
 ```
 
+    1
+    1
+    2
+    3
+    5
+    8
+    13
+    21
+    34
+
+
 ## Flat List
 
 Write a function that takes a nested list and flattens it to a list of ints, floats and strings.
