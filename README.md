@@ -41,22 +41,22 @@ fib(9) = 34 #The 9th element in the sequence is 34
 
 
 ```python
-#Your code here
+# Your code here
 def fib(n):
     return nth_number
 ```
 
-## Flat List
+## Flat list
 
 Write a function that takes a nested list and flattens it to a list of ints, floats and strings.
-For example the nested list [1,[2,3[4,5,6]], 7, [8], [9,10]] would become [1,2,3,4,5,6,7,8,9,10] or 
-[1,2[3,4,[5]]] would become [1,2,3,4,5].
+For example the nested list [1, [2, 3, [4, 5, 6]], 7, [8], [9, 10]] would become [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] or 
+[1, 2, [3, 4, [5]]] would become [1, 2, 3, 4, 5].
 
 > **Note**: Be careful how you initialize your function! See [this link](https://docs.quantifiedcode.com/python-anti-patterns/correctness/mutable_default_value_as_argument.html) for some potential pitfalls you could encounter if you're not careful!
 
 
 ```python
-#Your code here
+# Your code here
 def flat_list(L):
     return flattened
 ```
@@ -67,7 +67,7 @@ Did you use breadth or depth first recursive calls above? Explain.
 
 
 ```python
-#Your answer here.
+# Your answer here
 ```
 
 ## Summary
