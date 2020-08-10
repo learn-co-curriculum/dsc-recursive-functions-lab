@@ -21,6 +21,7 @@ The Fibonacci sequence starts off:
 
 Each number is the sum of the two preceding. Write a recursive function that calculates the nth number of the Fibonacci sequence. For example, our sequence above would correspond to:
 
+```python
 fib(1) = 1 #The 1st element in the sequence is 1
 
 fib(2) = 1 #The 2nd element in the sequence is 1
@@ -38,6 +39,7 @@ fib(7) = 13 #The 7th element in the sequence is 13
 fib(8) = 21 #The 8th element in the sequence is 21
 
 fib(9) = 34 #The 9th element in the sequence is 34
+```
 
 
 ```python
@@ -49,8 +51,8 @@ def fib(n):
 ## Flat list
 
 Write a function that takes a nested list and flattens it to a list of ints, floats and strings.
-For example the nested list [1, [2, 3, [4, 5, 6]], 7, [8], [9, 10]] would become [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] or 
-[1, 2, [3, 4, [5]]] would become [1, 2, 3, 4, 5].
+
+For example the nested list `[1, [2, 3, [4, 5, 6]], 7, [8], [9, 10]]` would become `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]` or `[1, 2, [3, 4, [5]]]` would become `[1, 2, 3, 4, 5]`.
 
 > **Note**: Be careful how you initialize your function! See [this link](https://docs.quantifiedcode.com/python-anti-patterns/correctness/mutable_default_value_as_argument.html) for some potential pitfalls you could encounter if you're not careful!
 
